@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Secrets
+*.key
+
+# Runtime / personal data
+memory.json
+document_store.json
+
+# Uploaded/generated files
+uploads/
+*.pdf
+
+# OS / IDE
+.vscode/
+.idea/

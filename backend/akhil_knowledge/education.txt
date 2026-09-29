@@ -1,0 +1,19 @@
+Education:
+
+B.Tech:
+Qualification: B.Tech
+Specialization: Computer Science Engineering
+Institution: RVR & JC College of Engineering, Guntur
+Year: 2023-2027
+CGPA: 8.57
+
+Intermediate:
+Specialization: MPC
+Institution: Sri Chaitanya Junior College, Guntur
+Year: 2021-2023
+Percentage: 95.1%
+
+SSC:
+Institution: General Kennedy High School, Guntur
+Year: 2020-2021
+Percentage: 99.3%

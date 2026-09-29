@@ -1,0 +1,9 @@
+Name: Akhil Pidathala
+
+Profile:
+Akhil is a final-year Computer Science Engineering student.
+
+Professional Summary:
+Tech enthusiast with strong knowledge of Python, JavaScript, HTML, CSS, and core computer science fundamentals.
+Intelligent and quick learner with problem-solving and teamwork abilities.
+Interested in developing technical skills, building innovative solutions, and adapting to modern development environments.

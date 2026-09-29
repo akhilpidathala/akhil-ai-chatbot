@@ -1,0 +1,36 @@
+Project: Online Note Saver
+
+Description:
+Developed a secure note management application with PIN-based access, cloud synchronization, and structured data management using Firebase Firestore.
+
+Features:
+Image and file attachment support
+Auto-save
+Revision history
+Secure locking
+Firebase Hosting deployment
+
+
+Project: AI-Powered Chatbot
+
+Description:
+Developed an AI-powered chatbot with FastAPI and LLM integration, enabling natural-language conversations and intelligent query handling.
+
+Features:
+Document-based question answering
+PDF processing
+Personalized knowledge retrieval
+Context-aware responses
+
+
+Project: Multilingual Dictionary System
+
+Description:
+Developed a multilingual dictionary application enabling English word searches with explanations, meanings, synonyms, and antonyms in English, Telugu, and Hindi.
+
+Features:
+Pronunciation support
+Search history
+Dark mode
+Responsive interface
+Efficient word retrieval using public APIs

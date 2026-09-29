@@ -1,0 +1,27 @@
+Programming Languages:
+Python
+C
+JavaScript (ES6+)
+HTML5
+CSS3
+
+Databases:
+SQL
+Firebase
+
+Technical / Office Skills:
+MS Excel
+MS Word
+MS PowerPoint
+
+Tools:
+Git
+GitHub
+VS Code
+Jupyter Notebook
+
+Soft Skills:
+Communication
+Problem-Solving
+Team Collaboration
+Adaptability

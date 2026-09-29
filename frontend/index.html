@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Akhil AI</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="app">
+
+
+        <!-- ========================================= -->
+        <!-- SIDEBAR -->
+        <!-- ========================================= -->
+
+        <aside class="sidebar">
+
+
+            <!-- LOGO -->
+
+            <div class="logo">
+                🤖 Akhil AI
+            </div>
+
+
+            <!-- NEW CHAT -->
+
+            <button
+                class="new-chat"
+                onclick="newChat()"
+            >
+                + New Chat
+            </button>
+
+
+            <!-- ========================================= -->
+            <!-- PDF UPLOAD -->
+            <!-- ========================================= -->
+
+            <div class="pdf-section">
+
+                <label
+                    for="pdfInput"
+                    class="pdf-upload-btn"
+                >
+                    📄 Upload PDF
+                </label>
+
+
+                <input
+                    type="file"
+                    id="pdfInput"
+                    accept=".pdf,application/pdf"
+                    onchange="uploadPDF()"
+                    hidden
+                >
+
+
+                <div
+                    id="pdfStatus"
+                    class="pdf-status"
+                >
+                    No PDF uploaded
+                </div>
+
+            </div>
+
+
+
+            <!-- ========================================= -->
+            <!-- CHAT MODES -->
+            <!-- ========================================= -->
+
+            <div class="mode-section">
+
+
+                <!-- NORMAL CHAT -->
+
+                <button
+                    id="normalModeBtn"
+                    class="mode-btn active"
+                    onclick="setChatMode('normal')"
+                >
+                    💬 Normal Chat
+                </button>
+
+
+                <!-- PDF CHAT -->
+
+                <button
+                    id="pdfModeBtn"
+                    class="mode-btn"
+                    onclick="setChatMode('pdf')"
+                >
+                    📄 PDF Chat
+                </button>
+
+
+                <!-- ASK ABOUT AKHIL -->
+
+                <button
+                    id="akhilModeBtn"
+                    class="mode-btn"
+                    onclick="setChatMode('akhil')"
+                >
+                    👤 Ask About Akhil
+                </button>
+
+
+            </div>
+
+
+
+            <!-- ========================================= -->
+            <!-- CHAT HISTORY -->
+            <!-- ========================================= -->
+
+            <div
+                id="chatList"
+                class="chat-list"
+            ></div>
+
+
+
+            <!-- ========================================= -->
+            <!-- SIDEBAR BOTTOM -->
+            <!-- ========================================= -->
+
+            <div class="sidebar-bottom">
+
+                <p>
+                    Phase 4 • Akhil Knowledge
+                </p>
+
+            </div>
+
+
+        </aside>
+
+
+
+        <!-- ========================================= -->
+        <!-- MAIN CHAT -->
+        <!-- ========================================= -->
+
+        <main class="chat-area">
+
+
+            <!-- HEADER -->
+
+            <header class="header">
+
+                <div>
+
+                    <h2>
+                        Akhil AI
+                    </h2>
+
+                    <span id="modeStatus">
+                        Normal AI Assistant
+                    </span>
+
+                </div>
+
+            </header>
+
+
+
+            <!-- ========================================= -->
+            <!-- MESSAGES -->
+            <!-- ========================================= -->
+
+            <section
+                id="chatMessages"
+                class="messages"
+            >
+
+
+                <!-- WELCOME MESSAGE -->
+
+                <div
+                    class="welcome"
+                    id="welcomeMessage"
+                >
+
+                    <div class="bot-icon">
+                        🤖
+                    </div>
+
+
+                    <h1>
+                        How can I help you?
+                    </h1>
+
+
+                    <p>
+                        Ask me anything, upload a PDF,
+                        or ask about Akhil.
+                    </p>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- ========================================= -->
+            <!-- INPUT AREA -->
+            <!-- ========================================= -->
+
+            <div class="input-area">
+
+
+                <div class="input-box">
+
+
+                    <textarea
+                        id="messageInput"
+                        placeholder="Message Akhil AI..."
+                        rows="1"
+                        onkeydown="handleKeyDown(event)"
+                    ></textarea>
+
+
+                    <button
+                        id="sendButton"
+                        onclick="sendMessage()"
+                    >
+                        ➤
+                    </button>
+
+
+                </div>
+
+
+                <p class="disclaimer">
+
+                    Akhil AI can make mistakes.
+                    Verify important information.
+
+                </p>
+
+
+            </div>
+
+
+        </main>
+
+
+    </div>
+
+
+
+    <!-- ========================================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================================= -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
